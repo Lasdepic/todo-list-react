@@ -1,4 +1,6 @@
 import { useState } from "react";
+import SearchBar from "./SearchBar";
+import ProductTable from "./ProductTable";
 
 function FilterableProductTable({ products }) {
   const [filterText, setFilterText] = useState("");
@@ -20,7 +22,5 @@ function FilterableProductTable({ products }) {
     </div>
   );
 }
-
-
 
 export default FilterableProductTable
