@@ -1,6 +1,6 @@
 import { useState } from "react";
-import SearchBar from "./SearchBar";
-import ProductTable from "./ProductTable";
+import SearchBar from "../SearchBar/SerchBar";
+import ProductTable from "../ProdcutTable/ProductTable";
 
 function FilterableProductTable({ products }) {
   const [filterText, setFilterText] = useState("");

@@ -1,3 +1,6 @@
+import ProductRow from "../Product Row/ProductRow";
+import ProductCategoryRow from "../categorie/Categorie";
+
 function ProductTable({ products, filterText, inStockOnly }) {
   const rows = [];
   let lastCategory = null;
